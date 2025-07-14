@@ -38,7 +38,7 @@ CHM files are treated as **trusted content** in many systems, especially if stor
 
 1. **Create Malicious HTML**
 
-![[creating-html-payload.png]]
+<img src="creating-html-payload.png" >
 
 2. **Compile the HTML into `.chm` Using HTML Help Workshop.** [Download Microsoft’s HTML Help Workshop.](https://learn.microsoft.com/en-us/previous-versions/windows/desktop/htmlhelp/microsoft-html-help-downloads)
 
