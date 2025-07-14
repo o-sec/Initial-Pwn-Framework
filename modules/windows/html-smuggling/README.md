@@ -79,7 +79,7 @@ link.click();
 > Replace "BASE64_ENCODED_PAYLOAD_HERE" with the full base64 of your payload ( stage2 ).
 
 
-![[prepare-html-payload.png]]
+<img src="prepare-html-payload.png" >
 
 4. **Host/Deliver the File**
 
@@ -88,16 +88,16 @@ Option 1: Host the file on your web server (e.g., http://attacker.com/delivery.h
 Option 2: Email the HTML file as an attachment
 
 when victim opens the html document it will download our payload ( stage2 ) automatically :
-![[open-html-payload.png]]
+<img src="open-html-payload.png" >
 
 
 
 5. **Execution**
 once the file is downloaded on the victim machine, wait until the victim execute it manually ( you can use social engineering !)
 
-![[extract-downloaded-7z-file.png]]
+<img src="extract-downloaded-7z-file.png" > 
 victim open stage2 payload ( malware )
-![[pwnd.png]]
+<img src="pwnd.png" >
 
 
 
