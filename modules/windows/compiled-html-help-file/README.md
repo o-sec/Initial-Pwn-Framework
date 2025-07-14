@@ -53,26 +53,26 @@ Compiled file=payload.chm
 Default topic=index.html
 ```
 
-![[creating-hhp-file.png]]
+<img src="creating-hhp-file.png" >
 
    **2 - open project.hhp in `HTML Help Workshop`**
-  ![[opening-project.png]]
+  <img src="opening-project.png" >
    
-![[opening-project-hhp.png]]   
+<img src="opening-project-hhp.png" >
 
    **3 - Add `payload.html` to the project.**
-![[adding-html-payload.png]]
+<img src="adding-html-payload.png" >
 
-![[adding-html-payload-.png]]
+<img src="adding-html-payload-.png" >
 
-![[html-payload-file.png]]
+<img src="html-payload-file.png" >
 
    
    **4 - Compile to payload.chm.**
    
-![[compile-to-chm.png]]
+<img src="compile-to-chm.png" >
 
-![[compiling.png]]
+<img src="compiling.png" >
 
 
 3. **Deliver the `.chm` File**
@@ -84,10 +84,10 @@ Default topic=index.html
 once the victim open the `.chm` file the embedded script will be rendered by `hh.exe` , resulting in a reverse shell being established.
 
 
-![[prepare.png]]
+<img src="prepare.png" >
 
 
-![[pwnd.png]]
+<img src="pwnd.png" >
 
 
 ---
