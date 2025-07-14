@@ -85,8 +85,8 @@ Or use **VBScript**:
 </html>
 ```
 
-![[hta-file-screenshot-1.png]]
-![[hta-file-screenshot-2.png]]
+<img src="hta-file-screenshot-1.png" >
+<img src="hta-file-screenshot-2.png" >
 
 3. **Deliver the `.hta` File**
 
@@ -101,13 +101,13 @@ e.g:
 nc -nlvp 9001
 ```
 
-![[prepare-for-attack.png]]
+<img src="prepare-for-attack.png" >
 
 5. **Execution**
 
 - When the user clicks the `.hta` file, `mshta.exe` will render the the HTML page ( JavaScript/VBScript ) and the embedded command will runs silently and retrieves our payload, resulting in a reverse shell being established.
 
-![[Initial-Pwn-Framework/modules/windows/microsoft-html-application/pwnd.png]]
+<img src="pwnd.png" >
 
 
 
