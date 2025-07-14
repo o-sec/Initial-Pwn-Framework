@@ -33,7 +33,7 @@ attacks as the shortcut and the actual file are almost identical in appearance.
  The malicious logic is hidden in the shortcut’s **target** path or embedded scripts. 
  Execution can occur without any visual clue to the user.
 
-![[shortcut.png]]
+<img src="shortcut.png" >
 
 
 ---
@@ -61,25 +61,25 @@ python3 -m http.server 80
  you can craft the shortcut manually with the GUI :
 
 1 - Create a new shortcut by Right click then click **New** > **Shortcut** 
-![[create-shortcut-s1.png]]
+<img src="create-shortcut-s1.png" >
 
 2 - then edit the properties of the shortcut and Customize Appearance: 
-![[create-shortcut-s2.png]]
+<img src="create-shortcut-s2.png" >
 
-![[create-shortcut-s3.png]]
+<img src="create-shortcut-s3.png" >
 
-![[create-shortcut-s4.png]]
+<img src="create-shortcut-s4.png" >
 
-![[create-shortcut-s5.png]]
+<img src="create-shortcut-s5.png" >
 
 set "Run:" to **Minimized**, for stealth .
-![[create-shortcut-s6.png]]
+<img src="create-shortcut-s6.png" >
 
 change the icon.
-![[create-shortcut-s7.png]]
+<img src="create-shortcut-s7.png" >
 
 embed the command you want to execute ( stager ) in the **Target** field.
-![[create-shortcut-s8.png]]
+<img src="create-shortcut-s8.png" >
 then click **apply** and **ok**
 
 
@@ -108,7 +108,7 @@ $Shortcut.Save()
 6. **Execution**
 - When the user clicks the `.lnk` file, the command runs silently and retrieves our payload and executes it, resulting in a reverse shell being established.
 
-![[pwnd.png]]
+<img src="pwnd.png" >
 
 ---
 
