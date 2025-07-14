@@ -146,18 +146,18 @@ RTF (Rich Text Format) files can include **object embeddings** and exploit **par
 #### Macro-Based Attack
 
 1. **Create a office document file (e.g., word document ) or use an existing one.**
-![[open-document.png]]
+<img src="open-document.png" >
 
 2. **inject a malicious macro into the document. ( VBA script )** 
-![[add-macros.png]]
+<img src="add-macros.png" >
 
-![[AutoOpen-macro.png]]
+<img src="AutoOpen-macro.png" >
 
-![[vba-script.png]]
+<img src="vba-script.png" >
 
-![[save-document.png]]
+<img src="save-document.png" >
 
-![[save-docx.png]]
+<img src="save-docx.png" >
 
 3. **Host the secondary payload ( stage2 )**
 ```shell
@@ -170,12 +170,12 @@ python3 -m http.server 80
   - Shared folder / drive
 
 5. **Start listener (e.g., Metasploit multi/handler) to catch reverse shell.**
-![[Initial-Pwn-Framework/modules/windows/malicious-office-documents/prepare-for-attack.png]]
+<img src="prepare-for-attack.png" >
 
 6. **Execution:**
 
 When the victim open the malicious document, in older versions of office software the macro will be executed directly but in new versions the user will be prompted to enable macros.
-![[Initial-Pwn-Framework/modules/windows/malicious-office-documents/pwnd.png]]
+<img src="pwnd.png" >
 
 
 #### Follina (CVE-2022-30190)
