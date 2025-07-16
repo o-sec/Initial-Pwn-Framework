@@ -5,7 +5,7 @@
 This framework is designed to serve as a **go-to reference and toolkit** for penetration testers, red teamers, during pre-exploitation stages, where **user interaction or endpoint vulnerabilities** are leveraged to compromise systems.
 
 
----
+
 
 ## Windows Modules
 
@@ -28,7 +28,7 @@ This framework is designed to serve as a **go-to reference and toolkit** for pen
 - Coming soon !
 
 
----
+
 
 ## Linux Modules
 
@@ -40,14 +40,14 @@ This framework is designed to serve as a **go-to reference and toolkit** for pen
 
 
 
----
+
 
 ## Disclaimer
 
 The developer of this project are **not responsible** for any misuse or damage caused by this framework.
 
 
----
+
 
 ## Contribution
 
